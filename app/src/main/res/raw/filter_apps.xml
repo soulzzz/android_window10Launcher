@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Applications>
+    <Application>
+        <PackageName>
+            com.taishan.atv
+        </PackageName>
+    </Application>
+
+    <Application>
+        <PackageName>
+            com.taishan.dtv
+        </PackageName>
+    </Application>
+    <Application>
+        <PackageName>
+            com.taishan.windowlauncher
+        </PackageName>
+    </Application>
+    <Application>
+        <PackageName>
+            com.taishan.pclauncher
+        </PackageName>
+    </Application>
+
+    <Application>
+        <PackageName>
+            com.taishan.quicksetting
+        </PackageName>
+    </Application>
+    <Application>
+        <PackageName>
+            com.taishan.tvsetting
+        </PackageName>
+    </Application>
+    <Application>
+        <PackageName>
+            com.taishan.tvui
+        </PackageName>
+    </Application>
+    <Application>
+        <PackageName>
+            com.android.inputmethod.latin
+        </PackageName>
+    </Application>
+</Applications>

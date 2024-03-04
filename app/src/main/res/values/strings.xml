@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">windowlauncher</string>
+    <string name="back_to_desktop">返回桌面</string>
+    <string name="volume">媒体音量:</string>
+    <string name="turn_off">关闭</string>
+    <string name="clear_all">全部清空</string>
+</resources>

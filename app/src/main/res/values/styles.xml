@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme2" parent="@android:style/Theme.Wallpaper.NoTitleBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="myPopupMenuStyleAttr">@style/myPopupMenu</item>
+    </style>
+
+    <style name="myPopupMenu" parent="@style/Widget.AppCompat.PopupMenu">
+
+    </style>
+    <attr name="myPopupMenuStyleAttr" format="reference" />
+
+    <style name="DialogRLAnimation">
+        <item name="android:windowEnterAnimation">@anim/right_to_left_enter</item>
+        <item name="android:windowExitAnimation">@anim/left_to_right_exit</item>
+    </style>
+    <style name="DialogLRAnimation">
+        <item name="android:windowEnterAnimation">@anim/left_to_right_enter</item>
+        <item name="android:windowExitAnimation">@anim/right_to_left_exit</item>
+    </style>
+    <style name="DialogBTAnimation">
+        <item name="android:windowEnterAnimation">@anim/bottom_to_top</item>
+        <item name="android:windowExitAnimation">@anim/top_to_bottom</item>
+    </style>
+
+</resources>

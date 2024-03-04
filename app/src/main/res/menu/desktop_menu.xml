@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/check_detail"
+        android:title="查看">
+        <menu>
+            <group android:checkableBehavior = "none">
+                <item android:id="@+id/smallIcon" android:title = "小图标"/>
+                <item android:id="@+id/mediumIcon" android:title = "正常图标"/>
+                <item android:id="@+id/bigIcon" android:title = "大图标"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/sortMethod"
+        android:title="排序方式">
+        <menu>
+            <group android:checkableBehavior = "none">
+                <item android:id="@+id/sortByName" android:title = "名称"/>
+                <item android:id="@+id/sortByLength" android:title = "大小"/>
+                <item android:id="@+id/sortByData" android:title = "安装日期"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/refresh"
+        android:title="刷新"></item>
+</menu>
